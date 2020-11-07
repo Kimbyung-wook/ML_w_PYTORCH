@@ -4,8 +4,10 @@
 
 인공신경망의 흐름에 따라서 정리하면..
 
-1) 학습데이터의 처리
+0) XOR 문제 : Perceptron
 
+1.1) 학습데이터의 처리
+- Batch Normalization
 2.1) 신경망의 아키텍쳐
 
 2.2) 신경망의 가중치 초기화 기법
@@ -21,7 +23,10 @@
 - Steepest Gradient Descent(SGD), RMSprop, Nestrov, Adam...
 
 3) 신경망의 과적합 문제 (Overfitting)
-- Dropout : 
+- 학습 데이터를 늘리거나
+- feature 크기를 줄이거나
+- 정규화(Regularization)
+- Dropout
 
 간혹 반복문 구성을 잘못해서 GPU 메모리 부족 문제가 발생하는데,
 차차 공부해보는게 좋을 것 같다.
